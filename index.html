@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Assignment 2</title>
+        <style>
+        .box1{
+            position: absolute;
+            left: 15px;
+            top: 0px;
+            font-weight: bold;
+            font-size:larger ;
+        }
+        .box2{
+            position: relative;
+            left:10px;
+            bottom:50px;
+            width: fit-content;
+            height: 100px;
+            font-weight: bold;
+            line-height: 100px;
+        }
+        </style>
+    </head>
+    <body>
+        <div style="background-color: red;padding:15;">
+        <form>
+            <div class="box1" style="background-color: aqua;" >
+                Personal Data
+            </div>
+        </br></br></br>
+            <div style="background-color: yellowgreen;" >
+                <div class="box2" style="background-color: aqua;" >
+                Your name
+                </div>
+                <table>
+                <tr>
+                <td style="font-weight: bold;">First name</td>
+                <td style="font-weight: bold;">:</td>
+                <td><input name="fname"type="text" placeholder="ex.Ahmed"></td>
+                </tr>
+                <tr>
+                <td style="font-weight: bold;">Second name</td>
+                <td style="font-weight: bold;">:</td>
+                <td><input name="lname"type="text" placeholder="ex.Bahnasy"></td>
+                </tr>
+                </table>
+            </div>
+            </br>
+            <table>
+                <tr>
+                <td style="font-weight: bold;">your phone</td>
+                <td style="font-weight: bold;">:</td>
+                <td><input name="phone"type="number"></td>
+                </tr>
+                <tr>
+                <td style="font-weight: bold;">Email</td>
+                <td style="font-weight: bold;">:</td>
+                <td><input name="email"type="email"></td>
+                </tr>
+                <td style="font-weight: bold;">Password</td>
+                <td style="font-weight: bold;">:</td>
+                <td><input name="pass"type="password"></td>
+                </tr>
+                <td style="font-weight: bold;">re-password</td>
+                <td style="font-weight: bold;">:</td>
+                <td><input name="passCheck"type="password"></td>
+                </tr>
+            </table>
+            </br></br>
+            <input name="gender" type="radio" value="Male"><label style="font-weight: bold;">Male</label>
+            </br>
+            <input name="gender" type="radio" value="Female"><label style="font-weight: bold;">Female</label>
+            </br>
+            </br>
+            <input name="Status" type="checkbox" value="Student"><label style="font-weight: bold;">Student</label>
+            </br>
+            <input name="Status" type="checkbox" value="Graduate"><label style="font-weight: bold;">Graduate</label>
+            </br></br>
+            <select name="Uni">
+                <optgroup label="Private Uni">
+                <option value="AUC">AUC</option>
+                <option value="GUC">GUC</option>
+            </optgroup>
+                <optgroup label="Public Uni">
+                <option value="Cairo">Cairo</option>
+                <option value="Ain shams">Ain shams</option>
+            </optgroup>
+            </select>
+        </br></br>
+        <button type="submit"><img src="Images/Picture1.jpg" width="100"></button>
+        </form>
+    </div>
+    </body>
+</html>
